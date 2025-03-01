@@ -1,3 +1,4 @@
+// FIX ME: With a certain key repetition, the class 'playing' is not removed from the key element.
 function playSound(e) {
     const audio = document.querySelector(`audio[data-key=${e.key}]`);
     const key = document.querySelector(`.key[data-key=${e.key}]`);
